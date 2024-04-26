@@ -1,0 +1,56 @@
+*,
+::before,
+::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    text-align: center;
+}
+
+table {
+border-width: 2px;
+border-color: burlywood;
+height:fit-content;
+width:fit-content;
+}
+.container{
+display:flex;
+justify-content: center;
+align-items: center;
+height: 20vh;
+
+}
+
+.element{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 20vh;
+} 
+
+h2{
+    color: blueviolet;
+}
+
+.nav{
+    background-color: black;
+    width:fit-content;
+    height:fit-content;
+
+}
+
+.nav a{
+    text-decoration: none;
+    padding: 1rem;
+    color:aliceblue
+}
+
+#main {
+    margin: 30px;
+    text-align: center;
+}
+
+
